@@ -5,7 +5,8 @@ M.get_test_cmd = function()
     "bundle",
     "exec",
     "ruby",
-    "-Itest",
+    "-Itest:lib",
+    "-w",
   })
 end
 
